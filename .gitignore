@@ -1,0 +1,37 @@
+
+# Minting the NFT
+
+## Prerequisites
+
+- Deployed TokenizeArt contract
+- Image uploaded to IPFS
+- Metadata uploaded to IPFS
+- Contract-owner wallet connected to Sepolia
+
+## Instructions
+
+1. Upload assets/tokenizeart42.png to IPFS.
+2. Copy the image CID.
+3. Update mint/metadata.json.
+4. Upload metadata.json to IPFS.
+5. Copy the metadata CID.
+6. Open the deployed contract in Remix.
+7. Call mintNFT(recipient, metadataURI).
+8. Confirm the transaction in MetaMask.
+9. Wait for transaction confirmation.
+
+## Mint Information
+
+Token ID: 1
+
+## Verification
+
+Call ownerOf(1) to confirm ownership.
+
+Call tokenURI(1) to confirm the metadata URI.
+
+Call balanceOf(recipient) to check the
+recipient's NFT balance.
+
+Open the image through an IPFS gateway
+to confirm the artwork is accessible.

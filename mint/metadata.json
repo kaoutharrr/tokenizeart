@@ -1,0 +1,21 @@
+
+{
+  "name": "42 Pixel Dreams",
+  "description": "A pixel-art NFT celebrating the 42 coding journey, creativity and perseverance.",
+  "image": "ipfs://bafybeihntees3amdpjx4p5ivki54nplnfscsy3xttanks7hhmgmpoeslyi",
+  "artist": "kkouaz",
+  "attributes": [
+    {
+      "trait_type": "Art Style",
+      "value": "Pixel Art"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "42"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "kkouaz"
+    }
+  ]
+}

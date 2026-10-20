@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>42 Pixel Dreams | TokenizeArt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="eyebrow">TOKENIZEART · ERC-721</p>
+      <h1>42 Pixel Dreams</h1>
+      <p class="subtitle">
+        A little piece of the 42 journey, immortalized on-chain.
+      </p>
+    </header>
+
+    <section class="nft-card">
+      <img id="artwork" src="" alt="42 Pixel Dreams NFT artwork">
+
+      <div class="details">
+        <p class="eyebrow">THE COLLECTION</p>
+        <h2>Pixel Dreams #1</h2>
+        <p>A pixel-art collectible celebrating creativity and code.</p>
+
+        <button id="connectButton">Connect MetaMask</button>
+        <p id="wallet">Wallet not connected</p>
+
+        <label for="metadataURI">Metadata IPFS URI</label>
+        <input
+          id="metadataURI"
+          type="text"
+          placeholder="ipfs://YOUR_METADATA_CID"
+        >
+
+        <button id="mintButton" disabled>Mint NFT</button>
+        <p id="status" role="status">Connect your wallet to begin.</p>
+        <a id="transactionLink" target="_blank" rel="noopener noreferrer"></a>
+      </div>
+    </section>
+
+    <footer>Ethereum Sepolia · Built for 42</footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.13.5/ethers.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
